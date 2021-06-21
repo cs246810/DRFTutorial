@@ -346,4 +346,6 @@ GET /
 
 ## 15、参考文献
 
-https://www.javacodegeeks.com/2020/08/introduction-to-hypermedia-rest-apis.html
+* https://www.javacodegeeks.com/2020/08/introduction-to-hypermedia-rest-apis.html
+* https://www.django-rest-framework.org/
+* https://www.djangoproject.com/
