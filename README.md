@@ -1,13 +1,13 @@
 # 超链接RESTful API设计模式
 
 RESTful是一种api接口的设计规范，超链接RESTful是在前者上的一种补充。本文主要结合这么几个出发点去探讨这两种技术思想：
-1. 了解RESTful API规范
-2. 了解超链接API
+1. RESTful API规范
+2. 超链接API
 3. 优缺点
 4. 身份认证
 5. 安全
 
-## 1、了解RESTful API规范
+## 1、RESTful API规范
 
 ### 1.1、域名
 
@@ -116,7 +116,7 @@ PUT /collection/resource：返回完整的资源对象
 PATCH /collection/resource：返回完整的资源对象
 DELETE /collection/resource：返回一个空文档
 ```
-## 2、了解超链接API
+## 2、超链接API
 
 ### 2.1、超媒体
 
@@ -334,7 +334,7 @@ GET /
 该包含了完整的信息，包括身份信息。
 
 
-## 最后、参考文献
+## 参考文献
 
 * https://www.javacodegeeks.com/2020/08/introduction-to-hypermedia-rest-apis.html
 * https://www.django-rest-framework.org/
