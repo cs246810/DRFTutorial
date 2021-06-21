@@ -14,6 +14,7 @@ urlpatterns = format_suffix_patterns([
     path('snippets/<int:pk>/highlight/',
          views.SnippetHighlight.as_view(),
          name='snippet-highlight'),
+
     path('users/',
          views.UserList.as_view(),
          name='user-list'),
